@@ -1,105 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Aleliya's website</title>
-        <style>
-            body {
-                padding: 0 500px;
-            }
-            a {
-                margin: 20px;
-            }
-            h1 {
-                font-family: DejaVu Sans Mono, monospace;
-                margin-left: 20px;
-            }
-            #b1, #b2{
-                border: 2px solid grey;
-                border-radius: 30px;
-                background-color: rgb(237, 83, 119);
-                width: 150px;
-                height: 60px;
-                padding-left: 15px;
-                font-family: Andale Mono, monospace;
-                font-size: large; 
-
-                display: block;
-                 
-                margin-top: 30px;          
-
-            }
-            #b3 {
-                border: 2px solid grey;
-                border-radius: 30px;
-                background-color: rgb(237, 83, 119);
-                width: 150px;
-                height: 60px;
-                padding-left: 15px;
-                font-family: Andale Mono, monospace;
-                font-size: large; 
-
-                display: block;
-                margin-left: 200px; 
-                top: 88px;
-                position: absolute;
-                
-            }
-            #b4 {
-                border: 2px solid grey;
-                border-radius: 30px;
-                background-color: rgb(237, 83, 119);
-                width: 150px;
-                height: 60px;
-                padding-left: 15px;
-                font-family: Andale Mono, monospace;
-                font-size: large; 
-
-                display: block;
-                margin-left: 200px; 
-                top: 178px;
-                position: absolute;
-            }
-        
-
-            #b1:hover, #b2:hover, #b3:hover, #b4:hover, #b4:hover{
-                background-color: rgb(222, 50, 100);
-            }
-
-            #b5{
-                border: 2px solid grey;
-                border-radius: 15px;
-                background-color: rgb(237, 83, 119);
-                width: 350px;
-                height: 60px;
-                padding-left: 15px;
-                font-family: Andale Mono, monospace;
-                font-size: large; 
-
-                display: block;
-                top: 300px;
-                position: absolute;
-            }
-            #b5:hover{
-                background-color: rgb(222, 50, 100);
-            }
-        </style>
-    </head>
-    <body>
-
-        <header>
-            <h1> Aleliya Turushkina </h1>
-        </header>
-        
-        
-        <h2><button id="b1" onclick="document.location='/about.html'">About Me</button></h2>
-        <h2><button id="b2" onclick="document.location='/photos.html'">Photos</button></h2>
-        <h2><button id="b4" onclick="document.location='/portfolio.html'">Portfolio</button></h2>
-        <h2><button id="b3" onclick="document.location='/contact.html'">Contact Me</button></h2>
-
-        <h2><button id="b5" onclick="document.location='/comic.html'">Comic</button></h2>
-        
-        <script>
-            
-        </script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aleliya's portfolio website</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
